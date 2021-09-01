@@ -6,12 +6,16 @@
 This project features a working Express.js API that uses Sequelize to interact with a MYSQL database. Because the application is not deployed a video tutorial link is provided featuring a walkthrough of the various API routes using Insomnia.
 
 ## Table of Contents:
+* [Demonstration](#Demonstration)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
 * [Contributing](#Contributing)
 * [Tests](#Tests)
 * [Questions](#Questions)
+
+## Demonstration
+[Click Here For Video Tutorial]()
 
 ## Installation
 * To install neccesary dependencies please run the following command:
