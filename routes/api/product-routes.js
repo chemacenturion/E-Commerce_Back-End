@@ -42,11 +42,13 @@ router.post('/', async (req, res) => {
       product_name: "Basketball",
       price: 200.00,
       stock: 3,
+      // ***** needs category_id:!!!!!
       tagIds: [1, 2, 3, 4]
     }
   */
   Product.create(req.body)
     .then((product) => {
+      // console.log(product); troubleshooting why product route was returning 400 err
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model
       if (req.body.tagIds.length) {
         const productTagIdArr = req.body.tagIds.map((tag_id) => {
