@@ -15,7 +15,7 @@ This project features a working Express.js API that uses Sequelize to interact w
 * [Questions](#Questions)
 
 ## Demonstration
-[Click Here For Video Tutorial]()
+[Click Here For Video Tutorial](https://drive.google.com/file/d/1oD_SmSHvdqerOuGjYua_e8zJO3PdZmpy/view)
 
 ## Installation
 * To install neccesary dependencies please run the following command:
